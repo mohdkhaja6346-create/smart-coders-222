@@ -1,0 +1,6 @@
+# Problem 54: Extract and print each digit of a number from left to right Extract and print each digit of a number from left to right Loops Math / Number Theory 55 Find factorial of N Find factorial of N Loops Math / Number Theory 56 Check if a number is prime Check if a number is prime Loops Math / Number Theory 57 Print all prime numbers from 1 to N Print all prime numbers from 1 to N Loops Math / Number Theory 58 Find GCD / HCF of two numbers Find GCD / HCF of two numbers Loops Math / Number Theory 59 Find LCM of two numbers Find LCM of two numbers Loops Series & Patterns (Single Loop) 60 Print Fibonacci series up to N terms Print Fibonacci series up to N terms Loops Series & Patterns (Single Loop) 61 Compute the sum: 1 + 1/2 + 1/3 + ... + 1/N Compute the sum: 1 + 1/2 + 1/3 + ... + 1/N Loops Series & Patterns (Single Loop) 62 Compute: 1 − 2 + 3 − 4 + 5 − ... up to N terms Compute: 1 − 2 + 3 − 4 + 5 − ... up to N terms Loops Series & Patterns (Single Loop) 63 Find x^n (power) without using built-in pow function Find x^n (power) without using built-in pow function Loops Series & Patterns (Single Loop) 64 Compute: 1! + 2! + 3! + ... + N! Compute: 1! + 2! + 3! + ... + N! Loops Applied / Mixed Loop Problems
+
+n = input("Enter number: ")
+
+for digit in n:
+    print(digit)

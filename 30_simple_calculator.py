@@ -1,0 +1,16 @@
+# Problem 30: Simple Calculator
+
+a = float(input("Enter first number: "))
+op = input("Enter operator (+, -, *, /): ")
+b = float(input("Enter second number: "))
+
+if op == "+":
+    print(a + b)
+elif op == "-":
+    print(a - b)
+elif op == "*":
+    print(a * b)
+elif op == "/":
+    print(a / b)
+else:
+    print("Invalid operator")
